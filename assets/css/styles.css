@@ -179,15 +179,7 @@ img {
 }
 
 /*===== HOME =====*/
-.home {
-  position: relative;
-  row-gap: 5rem;
-  padding: 4rem 0 5rem;
-}
-.home__data {
-    z-index: 2;
-    position: relative;
-}
+
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
@@ -208,17 +200,27 @@ img {
 .home__social-icon:hover {
   color: var(--first-color);
 }
+.home {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive */
+    align-items: center;
+    gap: 2rem; /* Adds spacing between text and image */
+    padding: 2rem 1rem;
+}
+
+.home__data {
+    z-index: 2; /* Ensure text is on top if needed */
+}
+
 .home__img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 260px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
 }
-.home__blob {
-  fill: var(--first-color);
-}
+
 .home__blob-img {
-  width: 360px;
+    width: 200px;
+    height: auto;
 }
 
 /*BUTTONS*/
