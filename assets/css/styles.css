@@ -185,7 +185,8 @@ img {
   padding: 4rem 0 5rem;
 }
 .home__data {
-  align-self: center;
+    z-index: 2;
+    position: relative;
 }
 .home__title {
   font-size: var(--big-font-size);
@@ -481,6 +482,7 @@ img {
     padding: 10rem 0 2rem;
   }
   .home__img {
-    width: 450px;
+    z-index: 1;
+    position: relative;
   }
 }
