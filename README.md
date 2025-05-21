@@ -1,7 +1,5 @@
-<<<<<<< HEAD
+
 # Portfolio Responsive Complete
-## [Watch it on youtube](https://youtu.be/AKNvTxWOdKw)
-### Portfolio Responsive Complete
 
 - Responsive Personal Portfolio Website HTML CSS & JavaScript.
 - Contains animations when scrolling.
@@ -11,7 +9,7 @@
 
 💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
 
-![preview img](/preview.png)
+![preview img](/adem.png)
 
 =======
 # My_Portfolio
