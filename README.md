@@ -8,7 +8,6 @@
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
 
-=======
 # My_Portfolio
 Professional Portfolio : MEHDIOUI Mohamed Adem
 
