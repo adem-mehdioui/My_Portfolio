@@ -310,12 +310,7 @@ img {
   display: grid !important;
   grid-template-columns: repeat(2, 1fr) !important;
   gap: 2rem !important;
-  border: 2px solid red; /* just for visualization */
 }
-.skills__container > div {
-  border: 1px solid blue; /* visualize the two children */
-}
-
 
 /* ===== STRENGTH ===== */
 .strength {
