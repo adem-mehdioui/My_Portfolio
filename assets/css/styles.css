@@ -236,9 +236,8 @@ img {
 
 /* ===== ABOUT =====*/
 .about__container {
-  display: flex;
-  align-items: flex-start; /* optional, to align top */
-  gap: 20px; /* optional, space between image and text */
+  row-gap: 2rem;
+  text-align: center;
 }
 .about__subtitle {
   margin-bottom: var(--mb-2);
