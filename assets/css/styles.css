@@ -306,6 +306,12 @@ img {
   border-radius: 0.5rem;
 }
 
+.skills__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
 
 /* ===== STRENGTH ===== */
 .strength {
