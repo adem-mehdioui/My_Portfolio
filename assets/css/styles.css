@@ -306,18 +306,12 @@ img {
   border-radius: 0.5rem;
 }
 
-.skills-container {
-  display: flex;
-  gap: 40px; /* space between left and right */
+.skills__container {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 2rem !important;
 }
 
-.professional-skills {
-  flex: 1;
-}
-
-.languages {
-  flex: 1;
-}
 
 /* ===== STRENGTH ===== */
 .strength {
