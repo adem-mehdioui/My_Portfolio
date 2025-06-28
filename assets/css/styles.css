@@ -307,9 +307,13 @@ img {
 }
 
 .skills__container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 2rem !important;
+  border: 2px solid red; /* just for visualization */
+}
+.skills__container > div {
+  border: 1px solid blue; /* visualize the two children */
 }
 
 
