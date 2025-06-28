@@ -310,12 +310,24 @@ img {
   display: grid !important;
   grid-template-columns: repeat(2, 1fr) !important;
   gap: 2rem !important;
-  border: 2px solid red; /* just for visualization */
-}
-.skills__container > div {
-  border: 1px solid blue; /* visualize the two children */
+  border: 2px solid red; /* for debugging only */
 }
 
+.skills__container > div {
+  border: 1px solid blue; /* for debugging only */
+}
+
+/* Remove margin from headings and lists to align top */
+.professional-skills h3,
+.languages h3 {
+  margin-top: 0;
+}
+
+.professional-skills ul,
+.languages ul {
+  margin-top: 0;
+  padding-left: 20px; /* optional */
+}
 
 /* ===== STRENGTH ===== */
 .strength {
